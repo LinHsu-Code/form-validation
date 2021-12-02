@@ -1,0 +1,39 @@
+{
+  "name": "dropdown-menu",
+  "version": "1.0.0",
+  "description": "You can allow the menu to show up either on click or on hover. You should hard-code the menu items into your HTML but hide/reveal them using JavaScript. You can do this either by adding a class (visible or something) or by manually setting the style in JS. Make sure the code is reusable! You should be able to create multiple drop-downs on a page without repeating the JavaScript code. If you bundle your code into a module you can publish it to npm and then install and use it anytime you like! Nothing like publishing your own modules to make you feel like a pro 😎.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gxl0216/dropdown-menu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gxl0216/dropdown-menu/issues"
+  },
+  "homepage": "https://github.com/gxl0216/dropdown-menu#readme",
+  "devDependencies": {
+    "copy-webpack-plugin": "^10.0.0",
+    "css-loader": "^6.5.1",
+    "eslint": "^8.3.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "html-webpack-plugin": "^5.5.0",
+    "json5": "^2.2.0",
+    "prettier": "2.5.0",
+    "sass": "^1.43.5",
+    "sass-loader": "^12.3.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
+  }
+}
